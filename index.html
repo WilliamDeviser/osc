@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ONG</title>
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  <!-- Estilos -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <!-- Scripts (jQuery não pode ser o slim que vem do Boostrap) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+  <!-- Progress Bar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Parallax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav class="navbar navbar-expand-lg  navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img id="logo" src="img/logo.png" alt="ONG"> Associação Anjos de Luz
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" id="home-menu" href="#">Inicio</span></a>
+            <a class="nav-item nav-link" id="about-menu" href="#about-area">Quem Somos</a>
+            <a class="nav-item nav-link" id="services-menu" href="#services-area">Curiosidades</a>
+            <a class="nav-item nav-link" id="portfolio-menu" href="#project-area">Projetos</a>
+            <a class="nav-item nav-link" id="contact-menu" href="#contact-area">Contato</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <!-- slider -->
+      <div id="mainSlider" class="carousel carousel-dark slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+          <li data-target="#mainSlider" data-slide-to="1"></li>
+          <li data-target="#mainSlider" data-slide-to="2"></li>
+          <li data-target="#mainSlider" data-slide-to="3"></li>
+          <li data-target="#mainSlider" data-slide-to="4"></li>
+          <li data-target="#mainSlider" data-slide-to="5"></li>
+          <li data-target="#mainSlider" data-slide-to="6"></li>
+          <li data-target="#mainSlider" data-slide-to="7"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.png" class="d-block w-100" alt="Projetos de e-commerce">
+
+            <!-- tirar classe d-none -->
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.png" class="d-block w-100" alt="Engenharia de software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner4.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner5.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner6.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner7.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner8.png" class="d-block w-100" alt="Manutenção em software">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Sobre a empresa -->
+
+      <div id="about-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h3 class="main-title">Quem é a associação Anjos de Luz?</h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/voluntario.jpg" alt="Agência hDC">
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">O que fazemos?</h3>
+              <p>Somos organização não governamental, sem fins lucrativos, que cria projetos para o desenvolvimento e
+                suporte de famílias de baixa renda.</p>
+              <p>Nós acreditamos que todo indivíduo deve ter a oportunidade de uma boa qualidade de vida, de educação de
+                qualidade e capacidade de se manter economicamente neste país.</p>
+              <p>Criamos projetos com o intuito de ajudar pessoas que precisam de um auxílio maior, dando uma
+                oportunidade de garantir um bom futuro e trilhando um caminho digno.
+              </p>
+              <p>Focamos nas áreas de saúde, educação e trabalho. Além de alguns eventos que criamos em datas
+                comemorativas, com a ajuda de doações de alimentos, roupas e dinheiro. Estes itens são direcionados para
+                bairros e comunidades carentes.
+
+              </p>
+              <ul id="about-list">
+                <li><i class="fas fa-check"></i> Auxílio à famílias carentes</li>
+                <li><i class="fas fa-check"></i> Projetos de Cestas Básicas</li>
+                <li><i class="fas fa-check"></i> Buscas de oportunidades de trabalho em nosso município</li>
+                <li><i class="fas fa-check"></i> Doação de brinquedos</li>
+                <li><i class="fas fa-check"></i> Eventos em datas especiais para a comunidade</li>
+              </ul>
+
+            </div>
+            <div class="col-12 text-center mt-2">
+                <a href="historia.html" rel="noopener noreferrer"><button type="button" class="btn btn-success">Conheça nossa historia</button></a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="social-media">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Acesse nossas redes sociais</h3>
+            </div>
+            <div class="col-12 text-center">
+              <a href="https://www.facebook.com/oscanjosdeluz/" target="_blank">
+                <img src="/img/facebook.svg" alt="" srcset="">
+              </a>
+              <a href="https://www.instagram.com/oscanjosdeluz/" target="_blank">
+                <img src="/img/instagram.svg" alt="" srcset="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Serviços da empresa -->
+
+      <div id="services-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">Curiosidades</h3>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Terceiro Setor</h4>
+              <p>Terceiro setor é formado por associações e entidades sem fins lucrativos, e é classificado como
+                terceiro setor, em sociologia. O termo é de origem americana, Third Sector, muito utilizado nos Estados
+                Unidos, e o Brasil utiliza a mesma classificação.
+              </p>
+              <a href="https://www.instagram.com/p/CROyP3KNt1N/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>ONG ou OSC</h4>
+              <p>Após o estabelecimento da pessoa jurídica, com registro no CNPJ, a entidade busca desenvolver sua
+                missão, geralmente complementando as atividades do Poder Público para atender necessidades sociais,
+                tornando-se assim uma ONG</p>
+              <a href="https://www.instagram.com/p/CROybfUNXHG/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Sociedade Civil</h4>
+              <p>Existem várias definições de sociedade civil. A primeira surgiu com Adam Ferguson, filósofo escocês,
+                que escreveu a primeira obra a respeito da sociedade civil em 1767, obra intitulada "Ensaio Sobre a
+                História da Sociedade Civil"</p>
+              <a href="https://www.instagram.com/p/CROyCIBNzP0/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Nome e Sobrenome</h4>
+              <p>Rica em ouro e com terras férteis, banhada pela bacia do Rio Verde, a pequena Vila chegaria ao início
+                do seu desenvolvimento com a visita do então Imperador D. Pedro II...</p>
+              <a href="https://www.instagram.com/p/CULl6IptWwy/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>Três Corações</h4>
+              <p>Três Corações é um município brasileiro do estado de Minas Gerais. Com aproximadamente 80 mil
+                habitantes é um dos principais centros urbanos do sul do estado.</p>
+              <a href="https://www.instagram.com/p/CULlx0INhz2/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+            <div class="col-md-4 service-box">
+              <h4>3 Corações e 4 rios</h4>
+              <p>O município mineiro, localizado às margens da BR-381, que liga a capital do Estado de São Paulo à
+                capital mineira, Belo Horizonte, é banhado pela bacia hidrográfica do Rio Verde</p>
+              <a href="https://www.instagram.com/p/CULlpgotDcJ/" target="_blank"><button type="button"
+                  class="btn btn-success">Saiba
+                  mais</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Dados da empresa
+      <div id="data-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleA"></div>
+              <p>Projetos</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleB"></div>
+              <p>Voluntários</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleC"></div>
+              <p>Familia Ajudadas</p>
+            </div>
+            <div class="col-md-3 col-xs-6 circle-box">
+              <div id="circleD"></div>
+              <p>Eventos Criados</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Colaboradores -->
+
+      <!-- <div id="team-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="main-title">VOLUNTÁRIOS</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile1.jpg" class="card-img-top" alt="Imagem de Perfil 1">
+                <div class="card-body">
+                  <h5 class="card-title">Jhon Doe</h5>
+                  <p class="card-text">Fundador | Diretoria</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile2.jpg" class="card-img-top" alt="Imagem de Perfil 2">
+                <div class="card-body">
+                  <h5 class="card-title">Maria Mariana</h5>
+                  <p class="card-text">Conselho Fiscal</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile3.jpg" class="card-img-top" alt="Imagem de Perfil 3">
+                <div class="card-body">
+                  <h5 class="card-title">Paul Baker</h5>
+                  <p class="card-text">Representante da Assembléia Voluntário</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/profile4.jpg" class="card-img-top" alt="Imagem de Perfil 4">
+                <div class="card-body">
+                  <h5 class="card-title">Karina Katarina</h5>
+                  <p class="card-text">Voluntário</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Portfólio -->
+
+      <div id="project-area">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <h3 class="main-title">Projetos</h3>
+            </div>
+            <div class="col-md-6">
+              <img class="img-fluid" src="img/EM&S.png" alt="logo projeto">
+            </div>
+            <div class="col-md-6">
+              <h3 class="about-title">EM&S</h3>
+              <p>Com foco nas dimensões EDUCAÇÃO e RENDA do Índice de Desenvolvimento Humano (IDH), o Projeto EN&S é parte
+              de um PROGRAMA, planejado para transformar a realidade de Três Corações e de onde quer que for executado.
+
+              Formar com informações de qualidade, com veracidade e segurança, além de educar para a construção de uma
+              sociedade mais justa é a MISSÃO do Projeto EN&S (Empregos, Negócios e Serviços).
+
+              Através das mídias sociais serão trabalhadas 3 vias de criação, desenvolvimento e compartilhamento;
+              EMPREGOS, NEGÓCIOS e SERVIÇOS:
+
+              Na via EMPREGOS, o cerne será a empregabilidade com foco no primeiro emprego e transição de carreira, bem
+              como o compartilhamento de vagas e oportunidades de trabalho, além do processo de recrutamento e seleção.
+
+              Em NEGÓCIOS, vamos incentivar e fomentar o empreendedorismo, focando em inovação e disrupção, provocando a
+              criatividade criando um ambiente de possibilidades além das oportunidades, bem como o compartilhamento e
+              divulgação de parcerias, compras e vendas.
+
+              Na parte de SERVIÇOS, nosso foco será a informação de utilidade pública como serviços governamentais da
+              área da saúde, educação, justiça, política, etc, além de serviços prestados à população pela iniciativa
+              privada (através de programas) e por Instituições do Terceiro Setor.
+
+              Nosso diferencial é que toda informação passa por um processo de verificação antes de ser compartilhada.
+              Realizamos a busca, pesquisa, checagem, confirmação de fonte, veracidade e também adequações quando
+              necessário, tanto para criação de conteúdo como para compartilhamento e envio.
+              </p>
+            </div>
+            <div class="col-12 text-center d-flex justify-content-center mt-2">
+              <p><strong>Acesse as mídias sociais do projeto:</strong></p>
+              <a href="https://www.facebook.com/empregosnegocioseservicos/" target="_blank">
+                <img src="/img/facebook-p.svg" alt="" srcset="">
+              </a>
+              <a href="https://www.instagram.com/empregosnegocioseservicos" target="_blank">
+                <img src="/img/instagram-p.svg" alt="" srcset="">
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- Banner do Rodapé -->
+
+      <div id="news-area">
+        <div class="container">
+          <div class="col-md-12">
+            <img src="img/rodape.png" class="img-fluid">
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Call to Action -->
+
+      <div id="call-area">
+        <div class="container">
+          <div class="row">
+            <p>Deseja ajudar o próximo?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button id="back-to-top" type="button" class="btn btn-light">
+      <i class="bi bi-arrow-up-circle"></i>
+    </button>
+  </main>
+
+  <!-- Rodapé -->
+
+  <footer>
+    <div id="contact-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="main-title">Entre em contato conosco</h3>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-phone"></i>
+            <p><span class="contact-tile">Ligue para:</span> (35) 9 9948-8329</p>
+            <p><span class="contact-tile">Horário de Disponibilidade:</span> 9:00 - 18:00</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-envelope"></i>
+            <p><span class="contact-tile">E-mail:</span> contato@anjosdeluz.ong.br</p>
+          </div>
+          <div class="col-md-4 contact-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <p><span class="contact-tile">Endereço:</span> Rua Dois, 44, Vila Nossa Senhora de
+              Fatima, Três Corações-MG, 37413-006</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Desenvolvido pelos alunos do curso Técnico em Informática do Senac de Três Corações</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts do projeto -->
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
